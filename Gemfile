@@ -23,6 +23,8 @@ gem 'rubyzip'
 gem 'restforce'
 gem 'newrelic_rpm'
 gem 'render_async'
+gem 'bundle-audit'
+gem "rails-html-sanitizer", ">= 1.0.4"
 
 group :production do
   gem 'unicorn'
